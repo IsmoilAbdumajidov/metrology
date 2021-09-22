@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satandartlashtirish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/fontawesome.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="l-form">
+            <form class="form">
+                <h4 class="form__title">Difference: <span id="text">0</span></h4>
+                <h4 class="form__title">Mechanic: <span id="textMechanic">0</span></h4>
+                <h4 class="form__title">Electronic: <span id="textElectr">0</span></h4>
+                <div class="form__div">
+                    <input class="form__input electr" id="electr" type="number" placeholder=" ">
+                    <label class="form__label" id="labelText">Elektronika</label>
+                    <div class="man">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                </div>
+                <div class="col-12 d-flex gap-4 justify-content-center">
+                    <button class="form__button btn " type="button" id="mechanicBtn">Mechanic</button>
+                    <button class="form__button btn" type="button" id="electrBtn">Electronics</button>
+                </div><br>
+                <button class="form__button col-12 btn disabled" id="difference" type="button" >Difference</button><br>
+                <input class="form__button col-12 " type="submit" value="Refresh"><br>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
